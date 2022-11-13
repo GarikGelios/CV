@@ -6,15 +6,15 @@ Project Manager, Scrum Master, Product Owner, Business Analyst, Frontend Develop
 
 ## Skills
 
-### Management:
+### Management
 
 **defining scope** and milestones; work planning (**Backlog Refinement**, **WBS**, **Gantt Chart**); release and **sprint planning**; issue decomposition; deadlines and critical path assessment; workflow **transparency**; progress **inspection**; assistance in **estimation** in story points and natural hours; holding meetings and demo; process **adaptation**.
 
-### Analytics:
+### Analytics
 
-translating business needs into requirements documentation (**BRD**, **SRS**, **UseCases**); identification of stakeholders and activities (**RACI-matrix**); adjusting **User Stories**, **Definition of Done/Ready**, **Acceptance Criteria**; defining the goal and key results (**OKR**), planning metrics (**KPI/KBI/KRI**); drawing process diagrams (**BPMN**); data validation (**SQL**, **PostMan**, **Excel**), creating reports (**Tableau**), warframe preparation and design approval (**UI/UX**, **Photoshop**, **Figma**)
+translating business needs into requirements documentation (**BRD**, **SRS**, **UseCases**); identification of stakeholders and activities (**RACI-matrix**); adjusting **User Stories**, **Definition of Done/Ready**, **Acceptance Criteria**; defining the goal and key results (**OKR**), planning metrics (**KPI/KBI/KRI**); drawing process diagrams (**BPMN**); warframe preparation and design approval (**UI/UX**, **Photoshop**, **Figma**).
 
-### Development:
+### Development
 
 <picture>
    <source media="(prefers-color-scheme: dark)" srcset="assets\img\HTML5-w.png">
@@ -38,7 +38,7 @@ translating business needs into requirements documentation (**BRD**, **SRS**, **
 <img height="80" alt="NPM" src="assets\img\NPM.png">
 <img height="80" alt="Vue.JS" src="assets\img\VueJS.png">
 
-## Contact me:
+## Contact me
 
 - <garikgelios@gmail.com>
 - [linkedin.com/in/garik-alexeev](https://www.linkedin.com/in/garik-alexeev/)
