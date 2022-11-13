@@ -1,4 +1,4 @@
-# IHAR ALIAKSEYEU
+# IHAR ALIAKSEYEU ![GitHub last commit](https://img.shields.io/github/last-commit/GarikGelios/CV?label=updated)
 
 ## Role experience
 
