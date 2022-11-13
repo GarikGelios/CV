@@ -37,3 +37,8 @@ translating business needs into requirements documentation (**BRD**, **SRS**, **
 <img height="80" alt="Node.JS" src="assets\img\NodeJS.png">
 <img height="80" alt="NPM" src="assets\img\NPM.png">
 <img height="80" alt="Vue.JS" src="assets\img\VueJS.png">
+
+## Contact me:
+
+- <garikgelios@gmail.com>
+- [linkedin.com/in/garik-alexeev](https://www.linkedin.com/in/garik-alexeev/)
