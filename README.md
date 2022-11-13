@@ -53,3 +53,26 @@ translating business needs into requirements documentation (**BRD**, **SRS**, **
 
 [^1]: [gov.pl: Karta Polaka – informacje ogólne](https://www.gov.pl/web/bialorus/karta-polaka-informacje-ogolne)
 [^2]: [ceidg.gov.p: Dane publiczne wpisu (NIP/REGON)](https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=8abd62b0-7993-423a-8189-2ebadab64dac)
+
+## Work history
+
+### [AWTG Limited](https://awtg.co.uk/)
+
+United Kingdom, London (IT outsourcing). WordPress, iOS, Android, Jira, Confluence, Figma
+
+- Business Analyst – _February 2022 / Until now_
+- Project Manager – _February 2022 / Until now_
+
+### [LBR](https://www.lbr.ru/)
+
+Belarus, Minsk (retail, agricultural machinery). Laravel, 1C, Planfix, Figma, draw.io
+
+- Business Analyst – _August 2021 / February 2022_
+- Project Manager – _December 2019 / February 2022_
+
+### [IB.BY](https://ib.by/)
+
+Belarus, Minsk (IT outsourcing). Drupal, Planfix, Trello, Axure
+
+- Project manager – _May 2019 / November 2019_
+- Frontend developer – _March 2019 / May 2019_
