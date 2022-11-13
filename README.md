@@ -75,4 +75,4 @@ Belarus, Minsk (retail, agricultural machinery). Laravel, 1C, Planfix, Figma, dr
 Belarus, Minsk (IT outsourcing). Drupal, Planfix, Trello, Axure
 
 - Project manager – _May 2019 / November 2019_
-- Front-end developer – _March 2019 / May 2019_
+- Frontend developer – _March 2019 / May 2019_
