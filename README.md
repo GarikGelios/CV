@@ -12,7 +12,7 @@ Project Manager, Scrum Master, Product Owner, Business Analyst, Frontend Develop
 
 ### Analytics
 
-translating business needs into requirements documentation (**BRD**, **SRS**, **UseCases**); identification of stakeholders and activities (**RACI-matrix**); adjusting **User Stories**, **Definition of Done/Ready**, **Acceptance Criteria**; defining the goal and key results (**OKR**), planning metrics (**KPI/KBI/KRI**); drawing process diagrams (**BPMN**); data validation (**SQL**, **PostMan**, **Excel**), creating reports (**Tableau**), warframe preparation and design approval (**UI/UX**, **Photoshop**, **Figma**).
+translating business needs into requirements documentation (**BRD**, **SRS**, **UseCases**); identification of stakeholders and activities (**RACI-matrix**); adjusting **User Stories**, **Definition of Done/Ready**, **Acceptance Criteria**; defining the goal and key results (**OKR**), planning metrics (**KPI/KBI/KRI**); drawing process diagrams (**BPMN**); warframe preparation and design approval (**UI/UX**, **Photoshop**, **Figma**).
 
 ### Development
 
