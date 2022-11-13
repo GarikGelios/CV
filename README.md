@@ -42,3 +42,14 @@ translating business needs into requirements documentation (**BRD**, **SRS**, **
 
 - <garikgelios@gmail.com>
 - [linkedin.com/in/garik-alexeev](https://www.linkedin.com/in/garik-alexeev/)
+
+## Additional Information
+
+- location: Poland, Gdynia (Trójmiasto)
+- work permit based on Karta Polaka [^1]
+- employment opportunities:
+  - Full-time (_Umowa o Pracę_)
+  - Contract B2B [^2]
+
+[^1]: [gov.pl: Karta Polaka – informacje ogólne](https://www.gov.pl/web/bialorus/karta-polaka-informacje-ogolne)
+[^2]: [ceidg.gov.p: Dane publiczne wpisu (NIP/REGON)](https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/SearchDetails.aspx?Id=8abd62b0-7993-423a-8189-2ebadab64dac)
