@@ -26,6 +26,7 @@ translating business needs into requirements documentation (**BRD**, **SRS**, **
    <source media="(prefers-color-scheme: light)" srcset="assets\img\CSS3.png">
 <img height="80" alt="CSS3" src="assets\img\CSS3.png">
 </picture>
+<img height="80" alt="Bootstrap" src="assets\img\Bootstrap.png">
 <img height="80" alt="Sass" src="assets\img\Sass.png">
 <img height="80" alt="GIT" src="assets\img\Git.png">
 <picture>
