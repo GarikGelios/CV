@@ -16,6 +16,7 @@ translating business needs into requirements documentation (**BRD**, **SRS**, **
 
 ### Development
 
+<div>
 <picture>
    <source media="(prefers-color-scheme: dark)" srcset="assets\img\HTML5-w.png">
    <source media="(prefers-color-scheme: light)" srcset="assets\img\HTML5.png">
@@ -37,6 +38,7 @@ translating business needs into requirements documentation (**BRD**, **SRS**, **
 <img height="80" alt="Node.JS" src="assets\img\NodeJS.png">
 <img height="80" alt="NPM" src="assets\img\NPM.png">
 <img height="80" alt="Vue.JS" src="assets\img\VueJS.png">
+<div>
 
 ## Contact me
 
