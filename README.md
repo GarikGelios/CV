@@ -131,3 +131,10 @@ Belarus, Minsk (internet radio)
 - RJ (radio host) — January 2015 — September 2016
 
 > Live broadcasts, reviews and announcements of events, holding contests, reading news and advertising blocks, regular interviews with guests.
+
+## EDUCATION
+
+### [City College of Garment](http://ptkshp.minsk.edu.by/)
+
+- [Fashion designer](http://ptkshp.minsk.edu.by/ru/main.aspx?guid=2361) — _September 2011 / July 2013_, Belarus, Minsk
+- [Tailor, Cutter](http://ptkshp.minsk.edu.by/ru/main.aspx?guid=2291) — _September 2008 / July 2011_, Belarus, Minsk
