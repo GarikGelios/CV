@@ -137,3 +137,8 @@ Belarus, Minsk (internet radio)
 ### [School of Business and Management of Technology of BSU](https://sb.bsu.by/)
 
 - [Bachelor's degree Business administration](https://bsu.by/structure/faculties/kafedry/kafedra-biznes-administrirovaniya-d/about) — _September 2013 / July 2018_, Belarus, Minsk
+
+### [City College of Garment](http://ptkshp.minsk.edu.by/)
+
+- [Fashion designer](http://ptkshp.minsk.edu.by/ru/main.aspx?guid=2361) — _September 2011 / July 2013_, Belarus, Minsk
+- [Tailor, Cutter](http://ptkshp.minsk.edu.by/ru/main.aspx?guid=2291) — _September 2008 / July 2011_, Belarus, Minsk
