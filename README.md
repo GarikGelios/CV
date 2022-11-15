@@ -79,3 +79,47 @@ Belarus, Minsk (IT outsourcing). Drupal, Planfix, Trello, Axure
 
 - Project manager – _May 2019 / November 2019_
 - Frontend developer – _March 2019 / May 2019_
+
+### LLC MaxFoodTrade
+
+Belarus, Minsk (fast food: pizza and burgers)
+
+- Internet Marketing and PR Specialist – _June 2018 / February 2019_
+
+> Marketing projects оrganization for 2 fast food chains in 8 outlets in Belarus, online and offline advertising, tasks for contractors, execution control, work with documents, advertising effectiveness analysis and reporting, preparation of tasks for designers
+
+### [Procvetok.by](https://procvetok.by/)
+
+Belarus, Minsk (retail, e-commerce, seeds, seedlings and flowers)
+
+- Internet Marketing Specialist – _April 2017 / August 2018_
+
+> Text and graphic(Photoshop+Illustrator) content creation, email marketing, HTML email development, push notifications, reporting and analysis of the effectiveness of mass and direct advertising (Excel)
+
+### [24shop.by](https://24shop.by/)
+
+Belarus, Minsk (retail, e-commerce, store aggregator: bigi.by, golden.by, dostavych.by)
+
+- Internet Marketing Specialist – _April 2016 / March 2017_
+
+> Text and graphic(Photoshop+Illustrator) content creation, advertising analytics in Google Analytics and Yandex.Metrica, email marketing, goods selection for promotions, layout and design of email and push notifications (Foundation for Emails)
+
+### LLC Temp Tay
+
+Belarus, Minsk (retail, e-commerce, sexy underwear)
+
+- System Administrator Assistant (Internship) – _March 2016 – April 2016_
+
+> Adding content to the site, adaptation site for mobile devices, setting up software and equipment in the office
+
+_...previous experience (2012-2016) in garment production: cutter, tailor, salon administrator_
+
+## Volunteering
+
+### rock.aplus.fm
+
+Belarus, Minsk (internet radio)
+
+- RJ (radio host) — January 2015 — September 2016
+
+> Live broadcasts, reviews and announcements of events, holding contests, reading news and advertising blocks, regular interviews with guests.
