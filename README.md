@@ -141,4 +141,4 @@ Belarus, Minsk (internet radio)
 ### [City College of Garment](http://ptkshp.minsk.edu.by/)
 
 - [Fashion designer](http://ptkshp.minsk.edu.by/ru/main.aspx?guid=2361) — _September 2011 / July 2013_, Belarus, Minsk
-- [Tailor, Cutter](http://ptkshp.minsk.edu.by/ru/main.aspx?guid=2291) — _September 2008 / July 2011_, Belarus, Minsk
+- [Tailor, Cutter](http://ptkshp.minsk.edu.by/ru/main.aspx?guid=2291) — _September 2008 / July 2011_, Belarus, Minsk 
