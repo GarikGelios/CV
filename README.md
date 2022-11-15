@@ -1,4 +1,4 @@
-# IHAR ALIAKSEYEU ![GitHub last commit](https://img.shields.io/github/last-commit/GarikGelios/CV?label=updated)
+# IHAR ALIAKSEYEU ![GitHub last commit](https://img.shields.io/github/last-commit/GarikGelios/CV?label=updated) 
 
 <!--- Badges 4 README.md Profile https://github.com/alexandresanlim/Badges4-README.md-Profile -->
 
