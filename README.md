@@ -131,3 +131,9 @@ Belarus, Minsk (internet radio)
 - RJ (radio host) — January 2015 — September 2016
 
 > Live broadcasts, reviews and announcements of events, holding contests, reading news and advertising blocks, regular interviews with guests.
+
+## Education
+
+### [School of Business and Management of Technology of BSU](https://sb.bsu.by/)
+
+- [Bachelor's degree Business administration](https://bsu.by/structure/faculties/kafedry/kafedra-biznes-administrirovaniya-d/about) — _September 2013 / July 2018_, Belarus, Minsk
