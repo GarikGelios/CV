@@ -142,3 +142,9 @@ Belarus, Minsk (internet radio)
 
 - [Fashion designer](http://ptkshp.minsk.edu.by/ru/main.aspx?guid=2361) — _September 2011 / July 2013_, Belarus, Minsk
 - [Tailor, Cutter](http://ptkshp.minsk.edu.by/ru/main.aspx?guid=2291) — _September 2008 / July 2011_, Belarus, Minsk
+
+## Courses & certificates
+
+## Scrum.org
+
+- [Professional Scrum Master™ I (PSM I)](https://www.credly.com/badges/5a4eea6d-a152-43dd-a794-6fa0b05defb3/linked_in?t=ricxo1) — _September 2022_
