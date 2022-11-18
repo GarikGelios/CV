@@ -145,6 +145,10 @@ Belarus, Minsk (internet radio)
 
 ## Courses & certificates
 
-## Scrum.org
+- _12 November 2022_ [Learn Git & GitHub Course](https://www.codecademy.com/profiles/GarikGelios/certificates/a8ab218d5950c29861635cc0bf12fd13) codecademy.com
 
-- [Professional Scrum Master™ I (PSM I)](https://www.credly.com/badges/5a4eea6d-a152-43dd-a794-6fa0b05defb3/linked_in?t=ricxo1) — _September 2022_
+- _5 November 2022_ [Jira Fundamentals Badge](https://university.atlassian.com/student/award/XQGnYNx2YEKpt6VQHWq8yzPJ) university.Atlassian.com
+
+- _9 October 2022_ [Agile Scrum Management + Kanban](https://www.udemy.com/certificate/UC-6d28f48e-5303-4995-9603-e71da4dac1b3/) omni.academy on Udemy
+
+- _17 September 2022_ [Professional Scrum Master™ I (PSM I)](https://www.credly.com/badges/5a4eea6d-a152-43dd-a794-6fa0b05defb3/linked_in?t=ricxo1) Scrum.org
