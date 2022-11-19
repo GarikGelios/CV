@@ -152,3 +152,7 @@ Belarus, Minsk (internet radio)
 - _9 October 2022_ [Agile Scrum Management + Kanban](https://www.udemy.com/certificate/UC-6d28f48e-5303-4995-9603-e71da4dac1b3/) omni.academy on Udemy
 
 - _17 September 2022_ [Professional Scrum Master™ I (PSM I)](https://www.credly.com/badges/5a4eea6d-a152-43dd-a794-6fa0b05defb3/linked_in?t=ricxo1) Scrum.org
+
+- _11 September 2022_ [User Stories for Agile Scrum+Product Owner+Business Analysis](https://www.udemy.com/certificate/UC-f6eb8f98-83f5-4e4d-aff9-73be8737e7bb/) PashunConsulting.co.uk on Udemy
+
+- _8 September 2022_ [Agile Project Management: Scrum Step by Step with Examples](https://www.udemy.com/certificate/UC-91036052-d576-4918-90ca-03c7aee3c344/) PashunConsulting.co.uk on Udemy
