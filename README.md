@@ -156,3 +156,5 @@ Belarus, Minsk (internet radio)
 - _11 September 2022_ [User Stories for Agile Scrum+Product Owner+Business Analysis](https://www.udemy.com/certificate/UC-f6eb8f98-83f5-4e4d-aff9-73be8737e7bb/) PashunConsulting.co.uk on Udemy
 
 - _8 September 2022_ [Agile Project Management: Scrum Step by Step with Examples](https://www.udemy.com/certificate/UC-91036052-d576-4918-90ca-03c7aee3c344/) PashunConsulting.co.uk on Udemy
+
+- _23 February 2022_ [Introduction to Project Management with PRINCE2](https://www.udemy.com/certificate/UC-ead0cf63-13ab-4859-9053-f42df67c9743/) DionTraining.com on Udemy
