@@ -145,6 +145,8 @@ Belarus, Minsk (internet radio)
 
 ## Courses & certificates
 
+- _14 November 2022_ [Learn CSS Course](https://www.codecademy.com/profiles/GarikGelios/certificates/9a5bb1fc45b4281af1fffec93b0aaf05) codecademy.com (Updated from February 2019)
+
 - _12 November 2022_ [Learn Git & GitHub Course](https://www.codecademy.com/profiles/GarikGelios/certificates/a8ab218d5950c29861635cc0bf12fd13) codecademy.com
 
 - _5 November 2022_ [Jira Fundamentals Badge](https://university.atlassian.com/student/award/XQGnYNx2YEKpt6VQHWq8yzPJ) university.Atlassian.com
@@ -158,3 +160,33 @@ Belarus, Minsk (internet radio)
 - _8 September 2022_ [Agile Project Management: Scrum Step by Step with Examples](https://www.udemy.com/certificate/UC-91036052-d576-4918-90ca-03c7aee3c344/) PashunConsulting.co.uk on Udemy
 
 - _23 February 2022_ [Introduction to Project Management with PRINCE2](https://www.udemy.com/certificate/UC-ead0cf63-13ab-4859-9053-f42df67c9743/) DionTraining.com on Udemy
+
+- _3 February 2022_ [Introduction to Business Analytics](https://www.udemy.com/certificate/UC-486d03da-4c4a-4d69-9cb7-7a738fef983f/) 365careers.com on Udemy
+
+- _20 December 2021_ [The Business Intelligence Analyst Course](https://www.udemy.com/certificate/UC-3ab4bcc0-1fa1-491b-bd1e-8ae1117431fb/) 365careers.com on Udemy
+
+- _20 September 2021_ [The Project Management Course: Beginner to PROject Manager](https://www.udemy.com/certificate/UC-6534079e-ba95-47ce-ac46-086b8eaa79c5/) 365careers.com on Udemy
+
+- _28 May 2021_ [BPMN for business analysts](https://www.udemy.com/certificate/UC-c8e49759-4d2d-4c0a-9a31-2c01f4cf64dd/) bpmtips.com on Udemy
+
+- _30 December 2020_ [Objective and Key Results (OKR)](https://www.udemy.com/certificate/UC-b2cb570c-2160-4e17-b0b3-f69650c3fdeb/) author's course on Udemy
+
+- _21 March 2020_ [Learn JavaScript Course](https://www.codecademy.com/profiles/GarikGelios/certificates/705dcb15de0da4dd9d9fc4f3274b430e) codecademy.com
+
+- _27 October 2019_ [Learn Asynchronous JavaScript Course](https://www.codecademy.com/profiles/GarikGelios/certificates/257c50bca4561663476f2fa8f6ac410c) codecademy.com
+
+- _8 July 2019_ [Integrated Business Analysis and Project Management Course](https://www.linkedin.com/posts/garik-alexeev_%D1%85%D0%BE%D1%87%D1%83-%D0%BF%D0%BE%D1%85%D0%B2%D0%B0%D1%81%D1%82%D0%B0%D1%82%D1%8C%D1%81%D1%8F-%D0%B0%D1%87%D0%B8%D0%B2%D0%BA%D0%BE%D0%B9-%D0%BA%D1%83%D1%80%D1%81-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%89%D0%B8%D1%85-activity-6559472029295345664-YE3o/?utm_source=share&utm_medium=member_desktop) belhard.academy
+
+- _24 February 2019_ [Learn Sass Course](https://www.codecademy.com/profiles/GarikGelios/certificates/eb1ffda40f347629dcef6de33d3f9741) codecademy.com
+
+- _22 February 2019_ [Learn CSS Course](https://www.codecademy.com/profiles/GarikGelios/certificates/9a5bb1fc45b4281af1fffec93b0aaf05) codecademy.com (Updated in November 2022)
+
+- _21 February 2019_ [Learn HTML Course](https://www.codecademy.com/profiles/GarikGelios/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7) codecademy.com
+
+- _11 February 2019_ [JavaScript Tutorial course](https://www.sololearn.com/Certificate/CT-CPWLTUEV/pdf) sololearn.com
+
+- _16 February 2017_ [PHP Tutorial course](https://www.sololearn.com/Certificate/CT-IA1JWH2D/pdf) sololearn.com
+
+- _25 January 2017_ [CSS Fundamentals course](https://www.sololearn.com/Certificate/CT-T97IS6O6/pdf) sololearn.com
+
+- _12 January 2017_ [HTML Fundamentals course](https://www.sololearn.com/Certificate/CT-XO8OJZON/pdf) sololearn.com
