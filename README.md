@@ -54,4 +54,4 @@ translating business needs into requirements documentation (**BRD**, **SRS**, **
 <img height="80" alt="Vue.JS" src="assets\img\VueJS.png">
 <div>
 
-### ...full Markdown version is on the Wiki page → [CV.markdown](https://github.com/GarikGelios/CV/wiki/CV.markdown)
+### ...full Markdown version is on the Wiki page → [CV.Markdown](https://github.com/GarikGelios/CV/wiki/CV.markdown)
