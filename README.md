@@ -145,6 +145,8 @@ Belarus, Minsk (internet radio)
 
 ## Courses & certificates
 
+- _24 November 2022_ [Learn Intermediate CSS Course](https://www.codecademy.com/profiles/GarikGelios/certificates/b3dec49423da50603c25618aee635027) codecademy.com
+
 - _14 November 2022_ [Learn CSS Course](https://www.codecademy.com/profiles/GarikGelios/certificates/9a5bb1fc45b4281af1fffec93b0aaf05) codecademy.com (Updated from February 2019)
 
 - _12 November 2022_ [Learn Git & GitHub Course](https://www.codecademy.com/profiles/GarikGelios/certificates/a8ab218d5950c29861635cc0bf12fd13) codecademy.com
