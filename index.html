@@ -74,6 +74,8 @@
           <dd>(Scrum) Transparency in what we do, inspection of the work being done and adaptation to the new environment.</dd>
           <dt>Respect to The Five Scrum Values</dt>
           <dd>Committing to the team and Sprint Goal. Focusing on keeping the customer happy. Telling everyone everything about all my work (within the contract). Respect for colleagues, the ability to listen, help in what I`m good and lack of judgment to anyone. Courage to voice and defend one's point of view regardless of hierarchical traditions.</dd>
+          <dt>Sprint planning</dt>
+          <dd>Planning the volume and workload of team members, consultation and assistance in finding trade-offs.</dd>
           <dt>Сommunicability</dt>
           <dd>I clearly and succinctly express my thoughts, organize and hold meetings, friendly with colleagues, have a great sense of humor, create memes in work chat.</dd>
         </dl>
@@ -113,8 +115,6 @@
           <dd>Compilation of criteria and verification of the readiness of the backlog item to be accepted for delivery to the increment.</dd>
           <dt><abbr title="Acceptance Criteria">AC</abbr></dt>
           <dd>Compilation of criteria and verification of the readiness of the increment to be accepted for delivery to the product.</dd>
-          <dt>Sprint planning</dt>
-          <dd>Planning the volume and workload of team members, consultation and assistance in finding trade-offs.</dd>
         </dl>
       </article>
       <article>
@@ -428,54 +428,63 @@
     <article id="languages">
       <h2>Languages</h2>
       <ul>
-        <li>English <span>Upper-Intermediate, B2-C1</span></li>
-        <li>Polish <span>Pre-Intermediate, A2-B1;</span></li>
-        <li>Russian <span>Native language, C1-C2</span></li>
-        <li>Belarusian <span>Native language, C1-C2</span></li>
-        <li>Ukrainian <span>Intermediate, B1-B2 </span></li>
+        <li><label for="english">English</label>
+          <span>Upper-Intermediate, B2-C1</span>
+          <meter id="english" min="0" max="100" low="30" high="80" optimum="50" value="70">70%</meter>
+        </li>
+        <li><label for="polish">Polish</label>
+          <span>Pre-Intermediate, A2-B1;</span>
+          <meter id="polish" min="0" max="100" low="30" high="80" optimum="50" value="30">30%</meter>
+        </li>
+        <li><label for="russian">Russian</label>
+          <span>Native language, C1-C2</span>
+          <meter id="russian" min="0" max="100" low="30" high="80" optimum="50" value="95">95%</meter>
+        </li>
+        <li><label for="belarusian">Belarusian</label>
+          <span>Native language, C1-C2</span>
+          <meter id="belarusian" min="0" max="100" low="30" high="80" optimum="50" value="90">90%</meter>
+        </li>
+        <li><label for="ukrainian">Ukrainian</label>
+          <span>Intermediate, B1-B2 </span>
+          <meter id="ukrainian" min="0" max="100" low="30" high="80" optimum="50" value="50">50%</meter>
+        </li>
       </ul>
     </article>
     <article id="portfolio">
       <h2>Portfolio</h2>
       <blockquote>Sites that have survived and I have permission to show them as my work.</blockquote>
-      <article>
-        <h3>WykupAvto.by</h3>
-        <figure>
-          <img src="assets/img/portfolio/wykupavto.jpg" alt="https://wykupavto.by/" width="350" />
-          <figcaption><time datetime="2016-08">August 2016</time></figcaption>
-        </figure>
-        <section>
-          <a href="https://wykupavto.by/" target="_blank" rel="noopener noreferrer">web</a>
-          <a href="https://github.com/GarikGelios/wykupavto" target="_blank" rel="noopener noreferrer">git</a>
-        </section>
+      <figure>
+        <img src="assets/img/portfolio/wykupavto.jpg" alt="https://wykupavto.by/" width="350" />
+        <figcaption>WykupAvto.by — <time datetime="2016-08">August 2016</time></figcaption>
         <details>
           <summary>Details</summary>
+          <section>
+            <a href="https://wykupavto.by/" target="_blank" rel="noopener noreferrer">web</a>
+            <a href="https://github.com/GarikGelios/wykupavto" target="_blank" rel="noopener noreferrer">git</a>
+          </section>
           <p>
             My first static website for a work colleague. Website for buying used cars throughout Belarus. Design, icons and pictures are mostly created by me.
             A friend helped me a little to make a feedback form.
           </p>
           <p>Learned and used: HTML, CSS, Bootstrap, PHP, Font Awesome</p>
         </details>
-      </article>
-      <article>
-        <h3>kj-taxi</h3>
-        <figure>
-          <img src="assets/img/portfolio/kj-taxi.jpg" alt="https://kj-taxi.by/" width="350" />
-          <figcaption><time datetime="2020-05">May 2020</time></figcaption>
-        </figure>
-        <section>
-          <a href="https://kj-taxi.by/" target="_blank" rel="noopener noreferrer">web</a>
-          <a href="https://github.com/GarikGelios/kj-taxi.by" target="_blank" rel="noopener noreferrer">git</a>
-        </section>
+      </figure>
+      <figure>
+        <img src="assets/img/portfolio/kj-taxi.jpg" alt="https://kj-taxi.by/" width="350" />
+        <figcaption>kj-taxi — <time datetime="2020-05">May 2020</time></figcaption>
         <details>
           <summary>Details</summary>
+          <section>
+            <a href="https://kj-taxi.by/" target="_blank" rel="noopener noreferrer">web</a>
+            <a href="https://github.com/GarikGelios/kj-taxi.by" target="_blank" rel="noopener noreferrer">git</a>
+          </section>
           <p>
             Practicing JS made a site for a friend recruiting taxi drivers. Inspired by the design from Pinterest, I implemented my ideas on how to make the
             site attractive.
           </p>
           <p>Learned and used: HTML, CSS, Bootstrap, Node.js, Express.js, Nodemailer, Font Awesome, reCAPTCHA</p>
         </details>
-      </article>
+      </figure>
     </article>
   </main>
   <!-- Contact information should be located on the side, like a sidebar -->
