@@ -1,0 +1,7 @@
+header {
+  img {
+    &[alt="my photo"] {
+      border-radius: 50%;
+    }
+  }
+}
