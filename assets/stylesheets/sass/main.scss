@@ -9,7 +9,7 @@
 @import "layout/footer";
 @import "pages/home";
 
-/* 
+/*
 • Use "@extend class_name" to add rules from "class_name" to another class in order not to repeat
 • Create %placeholder with a ruleset and use "@extend %placeholder_name" in class to add "class_name" to the declaration of the rules described in the placeholder
 • if there are variables+parameters in the rules сreate "@mixin name" to describe rule and use "@include mixin_name" to add into class rules described in mixin without combining into one declaration and rules
