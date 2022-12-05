@@ -4,7 +4,7 @@
   "description": "<!--- Badges 4 README.md Profile https://github.com/alexandresanlim/Badges4-README.md-Profile -->",
   "main": "app.js",
   "scripts": {
-    "test": "standard && node my-tests.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --watch",
     "start": "webpack serve"
   },
