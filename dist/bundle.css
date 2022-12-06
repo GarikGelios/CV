@@ -1,6 +1,105 @@
 @charset "UTF-8";
+@media print {
+  .no-print {
+    display: none;
+  }
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+body main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+body main section:first-of-type {
+  flex-basis: 500px;
+  flex-grow: 1;
+}
+body main section:nth-of-type(2) {
+  flex-basis: 350px;
+  margin: 0 auto;
+}
+body main #portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+body main #portfolio h2 {
+  flex-basis: 100%;
+}
+body main #portfolio blockquote {
+  flex-basis: 100%;
+}
+body aside[id=contact] {
+  flex-basis: 300px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+}
 header img[alt="my photo"] {
   border-radius: 50%;
+}
+header hgroup {
+  flex-basis: 900px;
+  padding: 0 25px;
+}
+
+nav {
+  width: 100%;
+  position: sticky;
+  top: 10px;
+  flex-grow: 1;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+nav ol {
+  list-style-type: none;
+  padding-inline-start: unset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+dl dt {
+  padding: 5px;
+}
+dl dt:hover {
+  cursor: pointer;
+}
+dl dt:focus + dd {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  width: 100%;
+}
+dl dd {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  margin-inline-start: 0;
+  transition: display 0s, opacity 0.5s linear;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*

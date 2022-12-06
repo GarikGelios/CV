@@ -1,11 +1,14 @@
 @import "helpers/variables";
 @import "helpers/functions";
 @import "helpers/mixins";
+@import "helpers/placeholders";
 @import "components/buttons";
 @import "components/carousel";
 @import "components/cover";
 @import "layout/grid";
 @import "layout/header";
+@import "layout/navbar";
+@import "layout/description-list";
 @import "layout/footer";
 @import "pages/home";
 

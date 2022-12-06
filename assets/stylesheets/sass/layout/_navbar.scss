@@ -1,0 +1,16 @@
+nav {
+  width: 100%;
+  position: sticky;
+  top: 10px;
+  flex-grow: 1;
+  @include large-blocks-are-centered;
+
+  ol {
+    list-style-type: none;
+    padding-inline-start: unset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+}
