@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
     @include large-blocks-are-centered;
 
     section {
@@ -32,7 +33,6 @@ body {
       blockquote {
         flex-basis: 100%;
       }
-
     }
   }
 

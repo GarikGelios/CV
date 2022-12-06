@@ -2,6 +2,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+
   @include large-blocks-are-centered;
 
   img {

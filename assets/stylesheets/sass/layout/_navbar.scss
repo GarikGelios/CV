@@ -3,6 +3,7 @@ nav {
   position: sticky;
   top: 10px;
   flex-grow: 1;
+
   @include large-blocks-are-centered;
 
   ol {
@@ -11,6 +12,5 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
   }
 }

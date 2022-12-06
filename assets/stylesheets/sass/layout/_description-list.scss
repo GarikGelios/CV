@@ -3,6 +3,15 @@ dl {
   flex-wrap: wrap;
   justify-content: flex-start;
 
+  dd {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    margin-inline-start: 0;
+    transition: display 0s, opacity 0.5s linear;
+  }
+
   dt {
     padding: 5px;
 
@@ -16,15 +25,6 @@ dl {
       height: auto;
       width: 100%;
     }
-
   }
 
-  dd {
-    visibility: hidden;
-    opacity: 0;
-    height: 0;
-    width: 0;
-    margin-inline-start: 0;
-    transition: display 0s, opacity 0.5s linear;
-  }
 }
