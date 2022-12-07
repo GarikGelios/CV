@@ -1,0 +1,32 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "<!--- Badges 4 README.md Profile https://github.com/alexandresanlim/Badges4-README.md-Profile -->",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarikGelios/CV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarikGelios/CV/issues"
+  },
+  "homepage": "https://github.com/GarikGelios/CV#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "standard": "^17.0.0",
+    "style-loader": "^3.3.1",
+    "stylelint-config-standard-scss": "^6.1.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
+}

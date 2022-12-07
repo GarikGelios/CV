@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@media print {
+  nav, body details {
+    display: none;
+  }
+}
+
+aside ul, nav ol, #courses ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+aside ul ul, nav ol ul, #courses ul ul {
+  list-style: circle;
+  padding-inline-start: 15px;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+dl dd {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  margin-inline-start: 0;
+  transition: display 0s, opacity 0.5s linear;
+}
+dl dt {
+  padding: 5px;
+}
+dl dt:hover {
+  cursor: pointer;
+}
+dl dt:focus + dd {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  width: 100%;
+}
+
+#courses h3 {
+  margin: 0;
+}
+#courses ul {
+  border-left: 2px dashed;
+  margin: 0 1rem;
+}
+#courses ul li {
+  position: relative;
+}
+#courses ul li time::after {
+  content: "●";
+  position: relative;
+  left: -9px;
+  font-size: 1.6rem;
+}
+#courses ul li time:hover::before {
+  content: attr(datetime);
+  position: absolute;
+  left: -90px;
+}
+
+#experience article section,
+#volunteering article section {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+#experience article section h3,
+#volunteering article section h3 {
+  margin: 0.5rem;
+}
+#experience article section p,
+#volunteering article section p {
+  margin: 0.5rem;
+}
+#experience article section ul,
+#volunteering article section ul {
+  margin-top: 0.5rem;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+body main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+body main #skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+body main #certification {
+  display: flex;
+  flex-wrap: wrap;
+}
+body main #certification h2 {
+  flex-basis: 100%;
+}
+body main #certification figure {
+  margin: 1rem;
+}
+body main section:first-of-type {
+  flex-basis: 500px;
+  margin: 0 auto;
+}
+body main section:nth-of-type(2) {
+  flex-basis: 420px;
+  margin: 0 auto;
+}
+body main #portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+body main #portfolio h2 {
+  flex-basis: 100%;
+}
+body main #portfolio blockquote {
+  flex-basis: 100%;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+header img[alt="my photo"] {
+  border-radius: 50%;
+}
+header hgroup {
+  flex-basis: 900px;
+  padding: 0 25px;
+}
+
+nav {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  flex-grow: 1;
+  background-color: white;
+  z-index: 2;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+nav ol {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+aside[id=contact] {
+  flex-basis: 360px;
+}
+aside #education ul {
+  list-style: inherit;
+  padding-inline-start: 15px;
+}
+aside #languages ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*
+• Use "@extend class_name" to add rules from "class_name" to another class in order not to repeat
+• Create %placeholder with a ruleset and use "@extend %placeholder_name" in class to add "class_name" to the declaration of the rules described in the placeholder
+• if there are variables+parameters in the rules сreate "@mixin name" to describe rule and use "@include mixin_name" to add into class rules described in mixin without combining into one declaration and rules
+*/

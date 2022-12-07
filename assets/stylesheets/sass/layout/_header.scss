@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @include large-blocks-are-centered;
+
+  img {
+    &[alt="my photo"] {
+      border-radius: 50%;
+    }
+  }
+
+  hgroup {
+    flex-basis: 900px;
+    padding: 0 25px;
+  }
+}

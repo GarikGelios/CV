@@ -1,0 +1,17 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "no-empty-source": null,
+    "no-missing-end-of-source-newline": null,
+    "max-line-length": [
+      300,
+      {
+        "ignore": [
+          "comments"
+        ]
+      }
+    ],
+    "selector-combinator-space-after": "never",
+    "selector-combinator-space-before": "never"
+  }
+}

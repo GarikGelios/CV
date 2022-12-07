@@ -1,0 +1,22 @@
+#experience,
+#volunteering {
+  article {
+    section {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+
+      h3 {
+        margin: 0.5rem;
+      }
+
+      p {
+        margin: 0.5rem;
+      }
+
+      ul {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}

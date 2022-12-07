@@ -1,0 +1,29 @@
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  dd {
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    margin-inline-start: 0;
+    transition: display 0s, opacity 0.5s linear;
+  }
+
+  dt {
+    padding: 5px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:focus+dd {
+      visibility: visible;
+      opacity: 1;
+      height: auto;
+      width: 100%;
+    }
+  }
+}

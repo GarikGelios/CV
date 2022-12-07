@@ -1,0 +1,33 @@
+#courses {
+  h3 {
+    margin: 0;
+  }
+
+  ul {
+    border-left: 2px dashed;
+    margin: 0 1rem;
+
+    @extend %no-dots-in-list;
+
+    li {
+      position: relative;
+
+      time {
+        &::after {
+          content: "●";
+          position: relative;
+          left: -9px;
+          font-size: 1.6rem;
+        }
+
+        &:hover {
+          &::before {
+            content: attr(datetime);
+            position: absolute;
+            left: -90px;
+          }
+        }
+      }
+    }
+  }
+}
