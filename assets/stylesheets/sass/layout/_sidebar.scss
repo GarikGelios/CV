@@ -3,7 +3,6 @@ aside {
     flex-basis: 360px;
   }
 
-
   ul {
     @extend %no-dots-in-list;
   }
@@ -23,5 +22,4 @@ aside {
       }
     }
   }
-
 }

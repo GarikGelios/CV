@@ -5,7 +5,6 @@ nav {
   flex-grow: 1;
 
   @include large-blocks-are-centered;
-
   @extend %no-print;
 
   ol {
