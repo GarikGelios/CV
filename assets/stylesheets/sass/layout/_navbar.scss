@@ -6,11 +6,13 @@ nav {
 
   @include large-blocks-are-centered;
 
+  @extend %no-print;
+
   ol {
-    list-style-type: none;
-    padding-inline-start: unset;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @extend %no-dots-in-list;
   }
 }

@@ -10,14 +10,33 @@ body {
 
     @include large-blocks-are-centered;
 
+    #skills-icons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    #certification {
+      display: flex;
+      flex-wrap: wrap;
+
+      h2 {
+        flex-basis: 100%;
+      }
+
+      figure {
+        margin: 1rem;
+      }
+    }
+
     section {
       &:first-of-type {
         flex-basis: 500px;
-        flex-grow: 1;
+        margin: 0 auto;
       }
 
       &:nth-of-type(2) {
-        flex-basis: 350px;
+        flex-basis: 420px;
         margin: 0 auto;
       }
     }
@@ -36,9 +55,7 @@ body {
     }
   }
 
-  aside {
-    &[id="contact"] {
-      flex-basis: 300px;
-    }
+  details {
+    @extend %no-print;
   }
 }

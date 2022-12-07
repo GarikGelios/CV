@@ -1,0 +1,27 @@
+aside {
+  &[id="contact"] {
+    flex-basis: 360px;
+  }
+
+
+  ul {
+    @extend %no-dots-in-list;
+  }
+
+  #education {
+    ul {
+      list-style: inherit;
+      padding-inline-start: 15px;
+    }
+  }
+
+  #languages {
+    ul {
+      li {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+
+}

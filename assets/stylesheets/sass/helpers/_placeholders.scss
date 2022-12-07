@@ -1,5 +1,15 @@
-.no-print {
+%no-print {
   @media print {
     display: none;
+  }
+}
+
+%no-dots-in-list {
+  list-style: none;
+  padding-inline-start: 0;
+
+  ul {
+    list-style: circle;
+    padding-inline-start: 15px;
   }
 }
