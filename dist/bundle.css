@@ -50,13 +50,13 @@ dl dt:focus + dd {
 #courses ul li {
   position: relative;
 }
-#courses ul li time:after {
+#courses ul li time::after {
   content: "●";
   position: relative;
   left: -9px;
   font-size: 1.6rem;
 }
-#courses ul li time:hover:before {
+#courses ul li time:hover::before {
   content: attr(datetime);
   position: absolute;
   left: -90px;
@@ -144,8 +144,10 @@ header hgroup {
 nav {
   width: 100%;
   position: sticky;
-  top: 10px;
+  top: 0;
   flex-grow: 1;
+  background-color: white;
+  z-index: 2;
   max-width: 1320px;
   margin: 0 auto;
 }

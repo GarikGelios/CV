@@ -1,8 +1,10 @@
 nav {
   width: 100%;
   position: sticky;
-  top: 10px;
+  top: 0;
   flex-grow: 1;
+  background-color: white;
+  z-index: 2;
 
   @include large-blocks-are-centered;
   @extend %no-print;

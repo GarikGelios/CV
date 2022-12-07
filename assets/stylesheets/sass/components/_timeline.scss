@@ -13,8 +13,7 @@
       position: relative;
 
       time {
-
-        &:after {
+        &::after {
           content: "●";
           position: relative;
           left: -9px;
@@ -22,7 +21,7 @@
         }
 
         &:hover {
-          &:before {
+          &::before {
             content: attr(datetime);
             position: absolute;
             left: -90px;
