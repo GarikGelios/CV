@@ -1,5 +1,4 @@
 @import "~bootstrap/scss/bootstrap";
-
 @import "helpers/variables";
 @import "helpers/functions";
 @import "helpers/mixins";
@@ -16,8 +15,6 @@
 @import "layout/footer";
 @import "layout/sidebar";
 @import "pages/home";
-
-
 
 /*
 • Use "@extend class_name" to add rules from "class_name" to another class in order not to repeat
