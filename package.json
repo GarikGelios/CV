@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/GarikGelios/CV#readme",
   "devDependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
     "css-loader": "^6.7.2",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
