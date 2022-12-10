@@ -1,33 +1,38 @@
 #courses {
-  h3 {
-    margin: 0;
+  li {
+    position: relative;
   }
 
-  ul {
-    border-left: 2px dashed;
-    margin: 0 1rem;
+  time {
+    font-size: $time-tooltip-font-size;
+  }
 
-    @extend %no-dots-in-list;
+  li time {
+    visibility: hidden;
+    max-width: $time-tooltip-max-width;
+    color: $time-tooltip-color;
+    background-color: $time-tooltip-bg;
+    border-radius: $time-tooltip-border-radius;
+    opacity: $time-tooltip-opacity;
+    padding: $time-tooltip-padding-y $time-tooltip-padding-x;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 10%;
+  }
 
-    li {
-      position: relative;
+  li time::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent;
+  }
 
-      time {
-        &::after {
-          content: "●";
-          position: relative;
-          left: -9px;
-          font-size: 1.6rem;
-        }
-
-        &:hover {
-          &::before {
-            content: attr(datetime);
-            position: absolute;
-            left: -90px;
-          }
-        }
-      }
-    }
+  li:hover time {
+    visibility: visible;
   }
 }

@@ -1,15 +1,17 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~bootstrap-icons/font/bootstrap-icons";
 
-// @import "helpers/variables";
+// custom styles
+@import "helpers/variables";
+@import "components/timeline";
+
 // @import "helpers/functions";
-// @import "helpers/mixins";
 // @import "helpers/placeholders";
+// @import "helpers/mixins";
 // @import "components/buttons";
 // @import "components/carousel";
 // @import "components/cover";
 // @import "components/description-list";
-// @import "components/timeline";
 // @import "components/work-item";
 // @import "layout/grid";
 // @import "layout/header";
