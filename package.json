@@ -32,6 +32,7 @@
     "webpack-cli": "^5.0.0"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.10.2"
+    "bootstrap-icons": "^1.10.2",
+    "tiny-slider": "^2.9.4"
   }
 }

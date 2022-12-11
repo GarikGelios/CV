@@ -1,24 +1,30 @@
+const path = require('path')
+
 module.exports = {
-  entry: ['./assets/stylesheets/sass/main.scss', './assets/javascript/dev-main.js'], // everything will merge into a single main.js. If you want separate files  lets create an object. Read more at concepts/entry-points/
+  entry: './assets/javascript/dev-main.js', // everything will merge into a single main.js. If you want separate files  lets create an object. Read more at concepts/entry-points/
   output: {
-    clean: true // Clean the output directory before emit.
+    clean: true, // Clean the output directory before emit.
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist')
   },
   mode: 'development',
   module: {
     rules: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
         use: []
       },
       {
         test: /\.scss$/,
-        exclude: /node_modules/,
         type: 'asset/resource',
         generator: {
           filename: 'bundle.css'
         },
-        use: ['sass-loader']
+        use: ['style-loader', 'sass-loader']
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource'
       },
       {
         mimetype: 'image/svg+xml',

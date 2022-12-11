@@ -1,15 +1,19 @@
+// Bootstrap 5
 @import "~bootstrap/scss/bootstrap";
 @import "~bootstrap-icons/font/bootstrap-icons";
+
+// Tiny Slider 2 (instead old Owl Carousel)
+@import "~tiny-slider/src/tiny-slider";
 
 // custom styles
 @import "helpers/variables";
 @import "components/timeline";
+@import "components/carousel";
 
 // @import "helpers/functions";
 // @import "helpers/placeholders";
 // @import "helpers/mixins";
 // @import "components/buttons";
-// @import "components/carousel";
 // @import "components/cover";
 // @import "components/description-list";
 // @import "components/work-item";
@@ -25,3 +29,17 @@
 • Create %placeholder with a ruleset and use "@extend %placeholder_name" in class to add "class_name" to the declaration of the rules described in the placeholder
 • if there are variables+parameters in the rules сreate "@mixin name" to describe rule and use "@include mixin_name" to add into class rules described in mixin without combining into one declaration and rules
 */
+
+@font-face {
+  font-family: Roboto;
+  src: url("../../fonts/Roboto-Medium.ttf") format("ttf");
+}
+
+.font-roboto {
+  font-family: Roboto, sans-serif;
+}
+
+// @font-face {
+//   font-family: bootstrap-icons;
+//   src: url("./../../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff") format("woff");
+// }

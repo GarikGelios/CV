@@ -29,7 +29,7 @@
         <img src="assets\img\I.jpg" class="img-thumbnail rounded-circle" alt="my photo" width="250">
       </picture>
       <hgroup class="col-9">
-        <h1 translate="no">Ihar Aliakseyeu</h1>
+        <h1 translate="no font-roboto">Ihar Aliakseyeu</h1>
         <p>Project Manager, Scrum Master, Product Owner, Business Analyst, Frontend Developer, Marketer</p>
         <h2 id="about">About me</h2>
         <p>
@@ -64,7 +64,7 @@
   </nav>
   <main class="container">
     <article class="row" id="skills">
-      <h2>Skills</h2>
+      <h2 class="my-3">Skills</h2>
       <article class="col-md-6">
         <h3>Management</h3>
         <dl>
@@ -297,8 +297,10 @@
       <article class="col-md-6" id="education">
         <h2>Education</h2>
         <article>
-          <h3 class="h6"><a href="https://sb.bsu.by/" target="_blank" rel="noopener noreferrer">School of Business and Management of Technology of BSU</a></h3>
-          <p>Belarus, Minsk</p>
+          <section class="d-flex flex-wrap justify-content-between">
+            <h3 class="h6"><a href="https://sb.bsu.by/" target="_blank" rel="noopener noreferrer">School of Business and Management of Technology of BSU</a></h3>
+            <p>Belarus, Minsk</p>
+          </section>
           <ul>
             <li>
               Bachelor's degree Business administration
@@ -307,8 +309,10 @@
           </ul>
         </article>
         <article>
-          <h3 class="h6"><a href="http://ptkshp.minsk.edu.by/" target="_blank" rel="noopener noreferrer">City College of Garment</a></h3>
-          <p>Belarus, Minsk</p>
+          <section class="d-flex flex-wrap justify-content-between">
+            <h3 class="h6"><a href="http://ptkshp.minsk.edu.by/" target="_blank" rel="noopener noreferrer">City College of Garment</a></h3>
+            <p>Belarus, Minsk</p>
+          </section>
           <ul>
             <li>Fashion designer <span><time datetime="2011-09">September 2011</time> / <time datetime="2013-07">July 2013</time></span></li>
             <li>Tailor, Cutter <span><time datetime="2008-09">September 2008</time> / <time datetime="2011-07">July 2011</time></span></li>
@@ -629,41 +633,54 @@
     <article id="portfolio">
       <h2>Portfolio</h2>
       <blockquote>Sites that have survived and I have permission to show them as my work.</blockquote>
-      <figure>
-        <img src="assets/img/portfolio/wykupavto.jpg" alt="https://wykupavto.by/" width="350" />
-        <figcaption>WykupAvto.by — <time datetime="2016-08">August 2016</time></figcaption>
-        <details>
-          <summary>Details</summary>
-          <section>
-            <a href="https://wykupavto.by/" target="_blank" rel="noopener noreferrer">web</a>
-            <a href="https://github.com/GarikGelios/wykupavto" target="_blank" rel="noopener noreferrer">git</a>
-          </section>
-          <p>
-            My first static website for a work colleague. Website for buying used cars throughout Belarus. Design, icons and pictures are mostly created by me.
-            A friend helped me a little to make a feedback form.
-          </p>
-          <p>Learned and used: HTML, CSS, Bootstrap, PHP, Font Awesome</p>
-        </details>
-      </figure>
-      <figure>
-        <img src="assets/img/portfolio/kj-taxi.jpg" alt="https://kj-taxi.by/" width="350" />
-        <figcaption>kj-taxi — <time datetime="2020-05">May 2020</time></figcaption>
-        <details>
-          <summary>Details</summary>
-          <section>
-            <a href="https://kj-taxi.by/" target="_blank" rel="noopener noreferrer">web</a>
-            <a href="https://github.com/GarikGelios/kj-taxi.by" target="_blank" rel="noopener noreferrer">git</a>
-          </section>
-          <p>
-            Practicing JS made a site for a friend recruiting taxi drivers. Inspired by the design from Pinterest, I implemented my ideas on how to make the
-            site attractive.
-          </p>
-          <p>Learned and used: HTML, CSS, Bootstrap, Node.js, Express.js, Nodemailer, Font Awesome, reCAPTCHA</p>
-        </details>
-      </figure>
+      <div class="portfolio-slider-controls">
+        <i class="bi bi-arrow-left-circle"></i>
+        <i class="bi bi-arrow-right-circle"></i>
+      </div>
+      <section class="portfolio-slider">
+        <figure>
+          <img src="assets/img/portfolio/wykupavto.jpg" alt="https://wykupavto.by/" width="350" />
+          <figcaption>WykupAvto.by <time datetime="2016-08"><small class="text-muted">August 2016</small></time></figcaption>
+          <details>
+            <summary>Details</summary>
+            <section>
+              <a href="https://wykupavto.by/" target="_blank" rel="noopener noreferrer">web</a>
+              <a href="https://github.com/GarikGelios/wykupavto" target="_blank" rel="noopener noreferrer">git</a>
+            </section>
+            <p>
+              My first static website for a work colleague. Website for buying used cars throughout Belarus. Design, icons and pictures are mostly created by me.
+              A friend helped me a little to make a feedback form.
+            </p>
+            <p>Learned and used: HTML, CSS, Bootstrap, PHP, Font Awesome</p>
+          </details>
+        </figure>
+        <figure>
+          <img src="assets/img/portfolio/kj-taxi.jpg" alt="https://kj-taxi.by/" width="350" />
+          <figcaption>kj-taxi <time datetime="2020-05"><small class="text-muted">May 2020</small></time></figcaption>
+          <details>
+            <summary>Details</summary>
+            <section>
+              <a href="https://kj-taxi.by/" target="_blank" rel="noopener noreferrer">web</a>
+              <a href="https://github.com/GarikGelios/kj-taxi.by" target="_blank" rel="noopener noreferrer">git</a>
+            </section>
+            <p>
+              Practicing JS made a site for a friend recruiting taxi drivers. Inspired by the design from Pinterest, I implemented my ideas on how to make the
+              site attractive.
+            </p>
+            <p>Learned and used: HTML, CSS, Bootstrap, Node.js, Express.js, Nodemailer, Font Awesome, reCAPTCHA</p>
+          </details>
+        </figure>
+        <figure aria-hidden="true">
+          <img src="https://dummyimage.com/500x348/6c757d/ffffff&text=Your+and+my+new+project" alt="..." width="350" />
+          <figcaption><span class="placeholder col-8"></span> <time datetime="2023"><small class="text-muted"><span class="placeholder col-4"></span></small></time></figcaption>
+        </figure>
+        <figure aria-hidden="true">
+          <img src="https://dummyimage.com/500x348/6c757d/ffffff&text=Perhaps+another+project+with+you" alt="..." width="350" />
+          <figcaption><span class="placeholder col-8"></span> <time datetime="2023"><small class="text-muted"><span class="placeholder col-4"></span></small></time></figcaption>
+        </figure>
+      </section>
     </article>
   </main>
-
   <footer>
     <ol>
       <li><a id="gov-pl-karta-polaka" href="https://www.gov.pl/web/bialorus/karta-polaka-informacje-ogolne" target="_blank" rel="noopener noreferrer" title="go to gov.pl">gov.pl: Karta Polaka – informacje ogólne</a></li>
