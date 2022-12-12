@@ -18983,6 +18983,23 @@ textarea.form-control-lg {
   padding: 6rem 2rem;
 }
 
+@media print {
+  html body {
+    margin: 1rem 5rem;
+    background: #fff;
+    background: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 18px;
+  }
+  .container {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: unset !important;
+  }
+}
 /*
 • Use "@extend class_name" to add rules from "class_name" to another class in order not to repeat
 • Create %placeholder with a ruleset and use "@extend %placeholder_name" in class to add "class_name" to the declaration of the rules described in the placeholder
