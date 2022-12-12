@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/GarikGelios/CV#readme",
   "devDependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
     "css-loader": "^6.7.2",
     "sass": "^1.56.1",
     "sass-loader": "^13.2.0",
@@ -28,5 +30,9 @@
     "stylelint-config-standard-scss": "^6.1.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.10.2",
+    "tiny-slider": "^2.9.4"
   }
 }

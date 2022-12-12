@@ -2,3 +2,13 @@ $all-content-max-width: 1320px;
 $centered: 0 auto;
 
 // Viva Magenta color of the year 2023 https: //colorscheme.ru/#5t11Tpvpzw0w0
+
+// Custom tooltip variables for time
+$time-tooltip-font-size: $font-size-sm;
+$time-tooltip-max-width: 200px;
+$time-tooltip-color: $white;
+$time-tooltip-bg: $black;
+$time-tooltip-border-radius: $border-radius;
+$time-tooltip-opacity: 0.9;
+$time-tooltip-padding-y: $spacer * 0.25;
+$time-tooltip-padding-x: $spacer * 0.5;
