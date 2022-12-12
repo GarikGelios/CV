@@ -633,42 +633,64 @@
     <article id="portfolio">
       <h2>Portfolio</h2>
       <blockquote>Sites that have survived and I have permission to show them as my work.</blockquote>
+      <!-- start: Modal  WykupAvto.by-->
+      <div class="modal fade" id="portfolio-modal-wykupavto" tabindex="-1" aria-labelledby="portfolio-modal-wykupavtoLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <p class="h1 modal-title fs-5" id="portfolio-modal-wykupavtoLabel">WykupAvto.by</p>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <section>
+                <a href="https://wykupavto.by/" target="_blank" rel="noopener noreferrer">web</a>
+                <a href="https://github.com/GarikGelios/wykupavto" target="_blank" rel="noopener noreferrer">git</a>
+              </section>
+              <p>
+                My first static website for a work colleague. Website for buying used cars throughout Belarus. Design, icons and pictures are mostly created by me.
+                A friend helped me a little to make a feedback form.
+              </p>
+              <p>Learned and used: HTML, CSS, Bootstrap, PHP, Font Awesome</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end: Modal  WykupAvto.by-->
+      <!-- start: Modal  kj-taxi.by-->
+      <div class="modal fade" id="portfolio-modal-kj-taxi" tabindex="-1" aria-labelledby="portfolio-modal-kj-taxiLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <p class="h1 modal-title fs-5" id="portfolio-modal-kj-taxiLabel">KJ-Taxi.by</p>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <section>
+                <a href="https://kj-taxi.by/" target="_blank" rel="noopener noreferrer">web</a>
+                <a href="https://github.com/GarikGelios/kj-taxi.by" target="_blank" rel="noopener noreferrer">git</a>
+              </section>
+              <p>
+                Practicing JS made a site for a friend recruiting taxi drivers. Inspired by the design from Pinterest, I implemented my ideas on how to make the
+                site attractive.
+              </p>
+              <p>Learned and used: HTML, CSS, Bootstrap, Node.js, Express.js, Nodemailer, Font Awesome, reCAPTCHA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end: Modal kj-taxi.by-->
       <div class="portfolio-slider-controls">
         <i class="bi bi-arrow-left-circle"></i>
         <i class="bi bi-arrow-right-circle"></i>
       </div>
       <section class="portfolio-slider">
         <figure>
-          <img src="assets/img/portfolio/wykupavto.jpg" alt="https://wykupavto.by/" width="350" />
+          <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#portfolio-modal-wykupavto"><img src="assets/img/portfolio/wykupavto.jpg" alt="https://wykupavto.by/" width="350" /></button>
           <figcaption>WykupAvto.by <time datetime="2016-08"><small class="text-muted">August 2016</small></time></figcaption>
-          <details>
-            <summary>Details</summary>
-            <section>
-              <a href="https://wykupavto.by/" target="_blank" rel="noopener noreferrer">web</a>
-              <a href="https://github.com/GarikGelios/wykupavto" target="_blank" rel="noopener noreferrer">git</a>
-            </section>
-            <p>
-              My first static website for a work colleague. Website for buying used cars throughout Belarus. Design, icons and pictures are mostly created by me.
-              A friend helped me a little to make a feedback form.
-            </p>
-            <p>Learned and used: HTML, CSS, Bootstrap, PHP, Font Awesome</p>
-          </details>
         </figure>
         <figure>
-          <img src="assets/img/portfolio/kj-taxi.jpg" alt="https://kj-taxi.by/" width="350" />
-          <figcaption>kj-taxi <time datetime="2020-05"><small class="text-muted">May 2020</small></time></figcaption>
-          <details>
-            <summary>Details</summary>
-            <section>
-              <a href="https://kj-taxi.by/" target="_blank" rel="noopener noreferrer">web</a>
-              <a href="https://github.com/GarikGelios/kj-taxi.by" target="_blank" rel="noopener noreferrer">git</a>
-            </section>
-            <p>
-              Practicing JS made a site for a friend recruiting taxi drivers. Inspired by the design from Pinterest, I implemented my ideas on how to make the
-              site attractive.
-            </p>
-            <p>Learned and used: HTML, CSS, Bootstrap, Node.js, Express.js, Nodemailer, Font Awesome, reCAPTCHA</p>
-          </details>
+          <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#portfolio-modal-kj-taxi"><img src="assets/img/portfolio/kj-taxi.jpg" alt="https://kj-taxi.by/" width="350" /></button>
+          <figcaption>KJ-Taxi.by <time datetime="2020-05"><small class="text-muted">May 2020</small></time></figcaption>
         </figure>
         <figure aria-hidden="true">
           <img src="https://dummyimage.com/500x348/6c757d/ffffff&text=Your+and+my+new+project" alt="..." width="350" />
