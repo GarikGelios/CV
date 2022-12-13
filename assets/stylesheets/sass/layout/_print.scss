@@ -17,4 +17,19 @@
     max-width: none !important;
     min-width: unset !important;
   }
+
+  #courses {
+    ul {
+      li {
+        a {
+          text-decoration: none;
+
+          &::after {
+            content: (" — ") attr(title);
+            color: black;
+          }
+        }
+      }
+    }
+  }
 }
