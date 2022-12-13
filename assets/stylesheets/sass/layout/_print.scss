@@ -32,4 +32,17 @@
       }
     }
   }
+
+  #experience,
+  #volunteering {
+    article {
+      section {
+        h3 {
+          &::after {
+            content: (" — ") attr(title);
+          }
+        }
+      }
+    }
+  }
 }
