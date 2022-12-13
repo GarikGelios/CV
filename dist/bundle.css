@@ -18999,6 +18999,18 @@ textarea.form-control-lg {
     max-width: none !important;
     min-width: unset !important;
   }
+  #courses ul li a {
+    text-decoration: none;
+  }
+  #courses ul li a::after {
+    content: " — " attr(title);
+    color: black;
+  }
+  #experience article section h3::after, #experience article section .h3::after,
+  #volunteering article section h3::after,
+  #volunteering article section .h3::after {
+    content: " — " attr(title);
+  }
 }
 /*
 • Use "@extend class_name" to add rules from "class_name" to another class in order not to repeat
