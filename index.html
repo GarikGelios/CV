@@ -28,16 +28,22 @@
         <source srcset="assets\img\I.jpg" type="image/svg+xml">
         <img src="assets\img\I.jpg" class="img-thumbnail rounded-circle" alt="my photo" width="250">
       </picture>
-      <hgroup class="col-9">
-        <h1 translate="font-roboto">Ihar Aliakseyeu</h1>
-        <p>Project Manager, Scrum Master, Product Owner, Business Analyst, Frontend Developer, Marketer</p>
-        <h2 id="about">About me</h2>
-        <p>
-          Hi,<br />
-          I'm developing software solutions. My interests range from marketing and business analytics to management and coding. Finding a common language with
-          people from different areas is my advantage, it allows me to coordinate the organization's processes and ensure the coherence of work on the project.
-          Keep reading my CV to find out how I can be helpful to your projects.
-        </p>
+      <hgroup class="col-md-9">
+        <div class="card">
+          <div class="card-header d-flex justify-content-between py-0 px-3">
+            <h1 id="about" class="font-roboto">Ihar Aliakseyeu</h1>
+            <button class="btn btn-link d-print-none" onclick="window.print();return false;">Downlod CV in PDF</button>
+          </div>
+          <div class="card-body">
+            <blockquote class="mb-0">
+              <p>Hi,<br />
+                I'm developing software solutions. My interests range from marketing and business analytics to management and coding. Finding a common language with
+                people from different areas is my advantage, it allows me to coordinate the organization's processes and ensure the coherence of work on the project.
+                Keep reading my CV to find out how I can be helpful to your projects.</p>
+              <footer class="blockquote-footer mt-3">Ihar Aliakseyeu, <cite title="This is how I feel about myself">Project Manager, Scrum Master, Product Owner, Business Analyst, Solution Architect, Frontend Developer, Marketer</cite></footer>
+            </blockquote>
+          </div>
+        </div>
       </hgroup>
     </div>
   </header>
@@ -720,7 +726,7 @@
       </section>
 
     </section>
-    <article id="portfolio">
+    <article id="portfolio" class="d-print-none">
       <h2>Portfolio</h2>
       <blockquote>Sites that have survived and I have permission to show them as my work.</blockquote>
       <!-- start: Modal  WykupAvto.by-->
