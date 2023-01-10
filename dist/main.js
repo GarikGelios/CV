@@ -1336,7 +1336,7 @@ eval("module.exports = \"data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/20
   \****************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"Roboto-Medium..ttf\";\n\n//# sourceURL=webpack://cv/./assets/fonts/Roboto-Medium.ttf?");
+eval("module.exports = __webpack_require__.p + \"fonts/7c8d04cd831df3033c8a.ttf\";\n\n//# sourceURL=webpack://cv/./assets/fonts/Roboto-Medium.ttf?");
 
 /***/ }),
 
@@ -1346,7 +1346,7 @@ eval("module.exports = __webpack_require__.p + \"Roboto-Medium..ttf\";\n\n//# so
   \********************************************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"bootstrap-icons..woff2\";\n\n//# sourceURL=webpack://cv/./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2?");
+eval("module.exports = __webpack_require__.p + \"fonts/b2e5aab643c6f0fd2da6.woff2?24e3eb84d0bcaf83d77f904c78ac1f47\";\n\n//# sourceURL=webpack://cv/./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2?");
 
 /***/ }),
 
@@ -1356,7 +1356,7 @@ eval("module.exports = __webpack_require__.p + \"bootstrap-icons..woff2\";\n\n//
   \*******************************************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"bootstrap-icons..woff\";\n\n//# sourceURL=webpack://cv/./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff?");
+eval("module.exports = __webpack_require__.p + \"fonts/6959d0d983ee318f8880.woff?24e3eb84d0bcaf83d77f904c78ac1f47\";\n\n//# sourceURL=webpack://cv/./node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff?");
 
 /***/ })
 

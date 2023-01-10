@@ -1,3 +1,4 @@
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const path = require('path')
 
 module.exports = {
@@ -18,7 +19,8 @@ module.exports = {
     port: 8080,
     hot: true
   },
-  mode: 'development', // so that the resulting files are not minified (alternative 'production')
+  // mode: 'development', // so that the resulting files are not minified (alternative 'production')
+  mode: 'development',
   module: {
     rules: [
       {
@@ -28,21 +30,24 @@ module.exports = {
       {
         test: /\.s[ac]ss$/i,
         // type: 'asset/resource', // type creates a separate file, which makes it impossible to get the fonts
-        generator: {
+        /* generator: {
           filename: 'bundle.css' // now all styles are in javascript, the file is not created
-        },
+        }, */
         use: [
-          'style-loader', // Creates `style` nodes from JS strings
+          // fallback to style-loader in development
+          process.env.NODE_ENV !== 'production' // check for which mode we work
+            ? 'style-loader' // Creates `style` nodes from JS strings, for development it is faster to have style in JS
+            : MiniCssExtractPlugin.loader,
           'css-loader', // Translates CSS into CommonJS
           'sass-loader' // Compiles Sass to CSS
         ]
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i, // fonts not working
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: 'asset/resource',
         generator: {
-          // outputPath: 'fonts/', // how to force styles to look in this folder?
-          filename: '[name].[ext]'
+          // outputPath: 'fonts/', // this value is not included in the final file path
+          filename: 'fonts/[hash][ext][query]'
         }
       },
       {
@@ -53,5 +58,13 @@ module.exports = {
         }
       }
     ]
-  }
+  },
+  plugins: [
+    new MiniCssExtractPlugin({
+      // Options similar to the same options in webpackOptions.output
+      // both options are optional
+      filename: '[name].css',
+      chunkFilename: '[id].css'
+    })
+  ]
 }
