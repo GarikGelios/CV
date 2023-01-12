@@ -31,11 +31,11 @@ translating business needs into requirements documentation (**BRD**, **SRS**, **
 
 ### ...full Markdown version is on the Wiki page → [CV.Markdown](https://github.com/GarikGelios/CV/wiki/CV.markdown)
 
-### ... HTML version is on GitHyb page → https://garikgelios.github.io/CV/
+### ... HTML version is on GitHyb page → <https://garikgelios.github.io/CV/>
 
 ---
 
-# Get started — standard flow
+## Get started — standard flow
 
 0. Everything you need to do with CV in the  GitHub issues
 1. Launch VSCode IDE
@@ -46,7 +46,7 @@ translating business needs into requirements documentation (**BRD**, **SRS**, **
 6. Do the code
 7. Add new code to stage `git add .`
 8. Commit new code `git commit -m "Comment"`
-9. Push new code to the repo `git push origin <branch_name>`
+9. Push new code to the repository `git push origin <branch_name>`
 10. Create a GitHub Pull Request `gh pr create` indicating the issue, if exist (more in Wiki [GitHub CLI](https://github.com/GarikGelios/CV/wiki/GitHub-CLI))
 11. Wait for **Super-linter** to check (_.github\workflows\linter.yml_)
 
@@ -56,7 +56,7 @@ with detailed comments
 
 * **WebPack** _webpack.config.js_
 * **Super-linter** _.github\workflows\linter.yml_
-  * MarkDown _.github\linters\.markdown-lint.yml_
+  * Markdown _.github\linters\.markdown-lint.yml_
   * CSS/SCSS _.github\linters\.stylelintrc.json_
 
 
