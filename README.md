@@ -27,31 +27,39 @@ Project Manager, Scrum Master, Product Owner, Business Analyst, Frontend Develop
 
 translating business needs into requirements documentation (**BRD**, **SRS**, **UseCases**); identification of stakeholders and activities (**RACI-matrix**); adjusting **User Stories**, **Definition of Done/Ready**, **Acceptance Criteria**; defining the goal and key results (**OKR**), planning metrics (**KPI/KBI/KRI**); drawing process diagrams (**BPMN**); warframe preparation and design approval (**UI/UX**, **Photoshop**, **Figma**).
 
-### Development
-
-<div>
-<picture>
-   <source media="(prefers-color-scheme: dark)" srcset="assets\img\HTML5-w.png">
-   <source media="(prefers-color-scheme: light)" srcset="assets\img\HTML5.png">
-<img height="80" alt="HTML5" src="assets\img\HTML5.png">
-</picture>
-<picture>
-   <source media="(prefers-color-scheme: dark)" srcset="assets\img\CSS3-w.png">
-   <source media="(prefers-color-scheme: light)" srcset="assets\img\CSS3.png">
-<img height="80" alt="CSS3" src="assets\img\CSS3.png">
-</picture>
-<img height="80" alt="Bootstrap" src="assets\img\Bootstrap.png">
-<img height="80" alt="Sass" src="assets\img\Sass.png">
-<img height="80" alt="GIT" src="assets\img\Git.png">
-<picture>
-   <source media="(prefers-color-scheme: dark)" srcset="assets\img\GitHub-w.png">
-   <source media="(prefers-color-scheme: light)" srcset="assets\img\GitHub.png">
-   <img height="80" alt="GitHub" src="assets\img\GitHub.png">
-</picture>
-<img height="80" alt="JavaScript" src="assets\img\JavaScript.png">
-<img height="80" alt="Node.JS" src="assets\img\NodeJS.png">
-<img height="80" alt="NPM" src="assets\img\NPM.png">
-<img height="80" alt="Vue.JS" src="assets\img\VueJS.png">
-<div>
+---
 
 ### ...full Markdown version is on the Wiki page → [CV.Markdown](https://github.com/GarikGelios/CV/wiki/CV.markdown)
+
+### ... HTML version is on GitHyb page → https://garikgelios.github.io/CV/
+
+---
+
+# Get started — standard flow
+
+0. Everything you need to do with CV in the  GitHub issues
+1. Launch VSCode IDE
+2. Pull up the latest changes `git pull`
+3. Create new branch `git checkout -b <branch_name>` (_more in Wiki [Git WorkFlow](https://github.com/GarikGelios/CV/wiki/Git-WorkFlow)_)
+4. Run **WebPack** build `npm run build` (_webpack.config.js_)
+5. Run **WebPack** server `npm run start`
+6. Do the code
+7. Add new code to stage `git add .`
+8. Commit new code `git commit -m "Comment"`
+9. Push new code to the repo `git push origin <branch_name>`
+10. Create a GitHub Pull Request `gh pr create` indicating the issue, if exist (more in Wiki [GitHub CLI](https://github.com/GarikGelios/CV/wiki/GitHub-CLI))
+11. Wait for **Super-linter** to check (_.github\workflows\linter.yml_)
+
+## Configurations
+
+with detailed comments
+
+* **WebPack** _webpack.config.js_
+* **Super-linter** _.github\workflows\linter.yml_
+  * MarkDown _.github\linters\.markdown-lint.yml_
+  * CSS/SCSS _.github\linters\.stylelintrc.json_
+
+
+
+
+
